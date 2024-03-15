@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	  <link rel="icon" href="R.png" type="image/png"/><title>Rimshad</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+  </head>
+  <body>
+    <div class="cursor" data-cursor></div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top p-4">
+      <div class="container">
+        <a href="#" class="navbar-brand n fs-1 fw-bolder h1">Rimshad</a>
+        <button
+          class="navbar-toggler shadow-none border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span><i class="bi bi-three-dots"></i></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          id="offcanvasNavbar" data-bs-scroll="true" tabindex="-1"
+        >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title h1 n" id="offcanvasWithBothOptionsLabel">Rimshad</h5>
+          <button type="button" class="btn n" data-bs-dismiss="offcanvas" aria-label="Close"><i class="bi bi-x-circle-fill"></i></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav ms-auto fw-semibold">
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="#contact">Contact</a>
+            </li>
+            <img src="sun.png" class="nav-link fs-5 mt-1" id="icon">
+          </ul>
+        </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- fist Section -->
+    <div class="col-12" id="home" style="margin-top: 12rem;">
+      <div class="container">
+        <div class="row mx-auto" style="margin-top: 50px">
+          <div class="col-md-12 col-lg-6 text-center">
+            <img
+              src="my.png"
+              class="img-fluid rounded-circle"
+              style="width: 300px; height: 300px"
+            />
+          </div>
+          <div class="col-md-12 col-lg-6 mt-5 text-center">
+            <div class="row">
+              <h6
+                class="text-secondary"
+                style="font-size: 20px; font-weight: 700"
+              >
+                Hello, I'm
+              </h6>
+              <h3 class="n" style="font-size: 30px; font-weight: 700">Rimshad <span>Ahamed</span></h3>
+              <h5
+                class="text-secondary text-center"
+                style="font-size: 40px; font-weight: 700"
+              >
+                Full Stack <span class="n">Developer</span>
+              </h5>
+            </div>
+            <div class="col-md-12">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-md-3 col-sm-3 bb mt-3">
+                    <a href="https://drive.google.com/file/d/1f9rT-twWUHnkwqE9rVfBOwBdZWuHbmgZ/view?usp=sharing" target="_blank" class="btn dn fw-medium rounded-5">Download cv</a>
+                  </div>
+                  <div class="col-md-3 col-sm-3 bb mt-3">
+                    <a href="#contact" class="btn bn fw-medium rounded-5">Contact Info</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 mt-2">
+              <div class="container">
+                <div class="row justify-content-center mx-5">
+                  <div class="col-md-3 col-sm-3 w-25 mt-1">
+                    <a
+                      href="https://www.linkedin.com/in/rimshad-ahamed-2661a9236/" target="_blank"
+                      class="btn bn rounded-circle"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                  </div>
+                  <div class="col-md-3 col-sm-3 w-25 mt-1">
+                    <a href="https://github.com/Rimshad01" target="_blank" class="btn bn rounded-circle"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end section -->
+
+    <!-- about me -->
+    <div class="col-md-12" id="about">
+      <div class="container">
+        <div class="row">
+          <h3 class="text-center fw-semibold text-secondary" style="margin-top: 150px">
+            Get to know <span class="n">more</span>
+          </h3>
+          <h3 class="text-center" style="font-size: 40px; font-weight: 700">
+            About Me
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12 mt-5">
+      <div id="carouselExampleCaptions" class="carousel slide mt-3">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="4.png" class="d-block w-100" style="height: 50%;" alt="...">
+            <div class="carousel-caption col-md-6 col-lg-6 col-sm-6 col-12 mx-auto" style="right: -250px;">
+              <h5 class="fw-bold">Fresher <br> Web Developer</h5>
+              <p class="text-white"><small>Hello, I’m Rimshad Ahamed, a passionate and driven web developer dedicated to crafting immersive digital experiences through innovative web applications. With a fervor for technology and a relentless pursuit of excellence, I embark on each project fueled by a desire to create impactful solutions and the prerten out of my knowladge in thins field to day i was making the potfolio to my self introduce the others</small></p>
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- end about me -->
+
+    <!-- experience -->
+    <div class="col-md-12" id="experience">
+      <div class="container">
+        <div class="row">
+          <h3 class="text-center fw-semibold text-secondary" style="margin-top: 150px">
+            <span class="n">Explore</span> My
+          </h3>
+          <h3 class="text-center" style="font-size: 40px; font-weight: 700">
+            Education / Qualification
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mt-3">
+            <div class="details-container">
+                <h3 class= fw-bold">Education</h5>
+                  <li class="nav-link fw-bold"><p><i class="bi bi-asterisk"></i> Software Engineering In Computing</p></li>
+                  <li class="nav-link fw-bold"><p><i class="bi bi-asterisk"></i> Esoft Metro Campus</p></li>
+            </div>
+          </div>
+          <div class="col-md-6 mt-3">
+            <div class="details-container">
+              <h3 class= fw-bold">Languages & Frameworks</h5>
+                <li class="nav-link text-center fw-bold"><p><i class="bi bi-asterisk"></i> PHP</p></li>
+                <li class="nav-link text-center fw-bold"><p><i class="bi bi-asterisk"></i> CSS</p></li>
+                <li class="nav-link text-center fw-bold"><p><i class="bi bi-asterisk"></i> HTML</p></li>
+                <li class="nav-link text-center fw-bold"><p><i class="bi bi-asterisk"></i> Bootstrap</p></li>
+                <li class="nav-link text-center fw-bold"><p><i class="bi bi-asterisk"></i> JAvascript</p></li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end experience -->
+
+
+    <!-- recent project -->
+    <div class="col-md-12" id="project">
+      <div class="container">
+        <div class="row">
+          <h5 class="text-center fw-semibold n" style="margin-top: 150px">
+            Browse My Recent
+          </h5>
+          <h1 class="text-center" style="font-size: 40px; font-weight: 600">
+            Project
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mt-3">
+            <div class="details-container2">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <img src="web.png" alt="" class="rounded-5 w-100">
+                  <h3 class="mt-3 fw-bold">Project One</h3>
+                  <h3 class="mt-3 fw-bold">Portfolio</h3>
+                  <div class="col-md-2 col-lg-4 col-2 dflex w-50">
+                    <a href="https://github.com/Rimshad01" target="_blank" class="btn bn fw-bold rounded-5 mt-3 ms-4">Github</a>
+                  </div>
+                  <div class="col-md-4 col-lg-6 col-2 d-flex w-50">
+                    <a href="https://rimshad01.github.io/" target="_blank" class="btn bn rounded-5 text-center fw-bold ss mt-3">Live Demo</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mt-3">
+            <div class="details-container2">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <img src="web3.png" alt="" class="rounded-5 w-100">
+                  <h3 class="mt-3 fw-bold">Project Two</h3>
+                  <h3 class="mt-3 fw-bold">HMS</h3>
+                  <div class="col-md-2 col-lg-4 col-2 dflex w-50">
+                    <a href="https://github.com/Rimshad01" target="_blank" class="btn bn fw-bold rounded-5 mt-3 ms-4">Github</a>
+                  </div>
+                  <div class="col-md-4 col-lg-6 col-2 d-flex w-50">
+                    <a href="#" class="btn bn rounded-5 text-center fw-bold ss mt-3">Live Demo</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-4 mt-3">
+            <div class="details-container2">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <img src="web2.png" alt="" class="rounded-5 w-100">
+                  <h3 class="mt-3 fw-bold">Project Three</h3>
+                  <h3 class="mt-3 fw-bold">Shopping Cart</h3>
+                  <div class="col-md-2 col-lg-4 col-2 dflex w-50 mt-3">
+                    <a href="https://github.com/Rimshad01" target="_blank" class="btn bn fw-bold rounded-5 ms-5">Github</a>
+                  </div>
+                  <div class="col-md-4 col-lg-6 col-2 d-flex w-50 mt-3">
+                    <a href="https://bauhiniashop.000webhostapp.com/" target="_blank" class="btn bn rounded-5 text-center fw-bold ss">Live Demo</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end recent project -->
+
+    <div class="col-md-12" id="contact">
+      <div class="container">
+        <div class="row">
+          <h5 class="text-center fw-semibold text-secondary" style="margin-top: 150px">
+            Get in Thouch
+          </h5>
+          <h1 class="text-center" style="font-size: 40px; font-weight: 600">
+            Contact <span class="n">Me</span>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="col-sm-12 col-md-8 col-lg-6 mt-5 mx-auto">
+        <div class="details-container3">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-sm-6 d-flex d w-50 justify-content-center">
+                <i id="copyIcon" class="me-2 s bi bi-envelope-fill"></i>
+                <span id="textcopy" class="text-center b fw-bold w-50">rimshadbr@gmail.com</span>
+              </div>
+              <div class="col-sm-6 d-flex w-50 d justify-content-center">
+                <i class="me-2 s bi bi-linkedin"></i>
+                <a href="https://www.linkedin.com/in/rimshad-ahamed-2661a9236/" target="_blank" class="nav-link text-center b fw-bold">Linked In</a>
+              </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="col-md-12 mt-3">
+        <div class="container">
+          <div class="row">
+            <p class="text-center">Copyright &#169; 2023 Rimshad Ahamed. All Rights Reserved.</p>
+            </div>
+        </div>
+      </div>
+      <!-- scroll Top -->
+    <div id="progress">
+      <span id="progress-value"><i class="bi bi-chevron-double-up"></i></span>
+    </div>
+    <!-- scroll Top End -->
+    </footer>
+    <script src="custom.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script>
+      const cursor = document.querySelector("[data-cursor]");
+
+      window.addEventListener("mousemove", function (e) {
+
+        // const height = circle.offsetHeight;
+        // const width = circle.offsetWidth;
+
+
+        // circle.style.left = `${e.pageX - width/2}px`;
+        // circle.style.top = `${e.pageY - height/2}px`;
+
+
+        const posX = e.clientX - 30;
+        const posY = e.clientY - 30;
+
+        cursor.style.left = `${posX}px`;
+        cursor.style.top = `${posY}px`;
+
+        // cursor.animate({
+        //   left: `${posX}px`,
+        //   top: `${posY}px` }, { duration: 300, fill: "forwards"});
+      });
+
+    </script>
+  </body>
+</html>
